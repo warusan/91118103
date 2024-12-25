@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人網站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .profile {
+            text-align: center;
+        }
+        .profile img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .profile div {
+            margin: 10px 0;
+        }
+        .profile div label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>個人網站</h1>
+        
+        <div class="profile">
+            <!-- 學號 -->
+            <div>
+                <label for="student-id">學號:</label>
+                <span id="student-id">91118103</span>
+            </div>
+            
+            <!-- 姓名 -->
+            <div>
+                <label for="name">姓名:</label>
+                <span id="name">李為霆</span>
+            </div>
+
+            <!-- 相片 -->
+            <div>
+                <label for="photo">相片:</label><br>
+                <img src="your-photo.jpg" alt="個人相片" id="photo">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
